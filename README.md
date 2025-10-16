@@ -108,3 +108,6 @@ picoCTF{XXXXX}
 ```
 XXXXX ไม่ใช้ flag นะ คือปิดไว้ จะได้ทำเอง
 
+เพิ่มเติม
+- ที่ใช้ exiftool เพราะ Hints บอกว่า "Download the jpg image and read its metadata" แปลว่า "ดาวน์โหลดภาพ jpg และอ่านข้อมูลเมตา"
+- ที่ใช้ steghide เพราะถอดรหัสจาก "c3RlZ2hpZGU6Y0VGNmVuZHZjbVE9" แล้วได้ "steghide:cEF6endvcmQ=" เราเลยรู้ว่ามีการใช้ steghide
