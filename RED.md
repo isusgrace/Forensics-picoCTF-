@@ -77,7 +77,7 @@ b1,bgr,msb,xy,prime .. file: OpenPGP Public Key
 b1,rgba,lsb,xy      .. text: "cGljb0NURntyM2RfMXNfdGgzX3VsdDFtNHQzX2N1cjNfZjByXzU0ZG4zNTVffQ==cGljb0NURntyM2RfMXNfdGgzX3VsdDFtNHQzX2N1cjNfZjByXzU0ZG4zNTVffQ==cGljb0NURntyM2RfMXNfdGgzX3VsdDFtNHQzX2N1cjNfZjByXzU0ZG4zNTVffQ==cGljb0NURntyM2RfMXNfdGgzX3VsdDFtNHQzX2N1cjNfZjByXzU0ZG4zNTVffQ=="
 ```
 มันคือ flag ที่ถูกเข้ารหัสด้วย Base64 โดยมันถูกวางติดกันยาว ๆ ในการถอดรหัสเราสามารถเข้า CyberChef 
-<img width="1920" height="1080" alt="Screenshot 2025-10-20 213316" src="https://github.com/user-attachments/assets/2158a62c-02c1-4010-bb19-e0cdeff99f36" />
+<img width="1920" height="1080" alt="ลบแล้ว" src="https://github.com/user-attachments/assets/d0d7472c-3968-4fea-b407-5a249043f964" />
 หรือใช้คำสั่ง echo บน kali linux
 ```
 echo "cGljb0NURntyM2RfMXNfdGgzX3VsdDFtNHQzX2N1cjNfZjByXzU0ZG4zNTVffQ==cGljb0NURntyM2RfMXNfdGgzX3VsdDFtNHQzX2N1cjNfZjByXzU0ZG4zNTVffQ==cGljb0NURntyM2RfMXNfdGgzX3VsdDFtNHQzX2N1cjNfZjByXzU0ZG4zNTVffQ==cGljb0NURntyM2RfMXNfdGgzX3VsdDFtNHQzX2N1cjNfZjByXzU0ZG4zNTVffQ==" | base64 -d
