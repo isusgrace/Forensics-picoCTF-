@@ -89,6 +89,7 @@ echo "cGljb0NURntyM2RfMXNfdGgzX3VsdDFtNHQzX2N1cjNfZjByXzU0ZG4zNTVffQ==cGljb0NURn
 picoCTF{XXXXX}picoCTF{XXXXX}picoCTF{XXXXX}picoCTF{XXXXX}
 ```
 จากนั้นคัดลอกมาแค่ 1 ข้อความ เพื่อส่ง flag ใน picoCTF
+
 XXXXX ไม่ใช้ flag นะ คือปิดไว้ จะได้ทำเอง
 
 เพิ่มเติม
