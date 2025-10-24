@@ -15,11 +15,29 @@ cd <new directory>
 ```
 ตามด้วย คำสั่ง cd ใช้สำหรับเปลี่ยนไดเรกทอรีหรือโฟลเดอร์ปัจจุบันในเทอร์มินัล
 ```
+wget <URL>
+```
+ตามด้วย คำสั่ง wget ใช้สำหรับดาวน์โหลดไฟล์จากอินเทอร์เน็ตโดยตรงผ่านบรรทัดคำสั่ง
+
+```
 ┌──(kali㉿kali)-[~/Downloads]
 └─$ mkdir isusgrace03
 
 ┌──(kali㉿kali)-[~/Downloads]
 └─$ cd isusgrace03
+
+┌──(kali㉿kali)-[~/Downloads/isusgrace03]
+└─$ wget https://artifacts.picoctf.net/c/215/pico.flag.png
+--2025-10-23 23:33:23--  https://artifacts.picoctf.net/c/215/pico.flag.png
+Resolving artifacts.picoctf.net (artifacts.picoctf.net)... 54.230.42.116, 54.230.42.21, 54.230.42.13, ...
+Connecting to artifacts.picoctf.net (artifacts.picoctf.net)|54.230.42.116|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 13438 (13K) [application/octet-stream]
+Saving to: ‘pico.flag.png’
+
+pico.flag.png           100%[============================>]  13.12K  --.-KB/s    in 0s      
+
+2025-10-23 23:33:24 (331 MB/s) - ‘pico.flag.png’ saved [13438/13438]
 ```
 
 Step 2 zsteg
