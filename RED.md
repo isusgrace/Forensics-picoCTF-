@@ -5,6 +5,7 @@ Yes, I can speak Thai.
 มา วันนี้เราจะมาทำข้อ RED หมวด Forensics 
 
 Step 1 สร้าง Directory และนำเข้าไฟล์
+
 ใช้คำสั่ง mkdir ใช้สำหรับสร้างไดเรกทอรี (หรือโฟลเดอร์) ใหม่บนระบบไฟล์
 ```
 mkdir <new directory>
@@ -36,6 +37,7 @@ red.png                 100%[============================>]     796  --.-KB/s   
 ```
 
 Step 2 zsteg
+
 Zsteg คือ เครื่องมือสำหรับวิเคราะห์และตรวจจับข้อมูลที่ถูกซ่อนไว้ในไฟล์ภาพ โดยเฉพาะไฟล์ประเภท PNG และ BMP
 ```
 ┌──(kali㉿kali)-[~/isusgrace03]
@@ -76,8 +78,10 @@ b1,bgr,msb,xy,prime .. file: OpenPGP Public Key
 ```
 b1,rgba,lsb,xy      .. text: "cGljb0NURntyM2RfMXNfdGgzX3VsdDFtNHQzX2N1cjNfZjByXzU0ZG4zNTVffQ==cGljb0NURntyM2RfMXNfdGgzX3VsdDFtNHQzX2N1cjNfZjByXzU0ZG4zNTVffQ==cGljb0NURntyM2RfMXNfdGgzX3VsdDFtNHQzX2N1cjNfZjByXzU0ZG4zNTVffQ==cGljb0NURntyM2RfMXNfdGgzX3VsdDFtNHQzX2N1cjNfZjByXzU0ZG4zNTVffQ=="
 ```
-มันคือ flag ที่ถูกเข้ารหัสด้วย Base64 โดยมันถูกวางติดกันยาว ๆ ในการถอดรหัสเราสามารถเข้า CyberChef 
+มันคือ flag ที่ถูกเข้ารหัสด้วย Base64 โดยมันถูกวางติดกันยาว ๆ ในการถอดรหัสเราสามารถเข้า CyberChef
+
 <img width="1920" height="1080" alt="ลบแล้ว" src="https://github.com/user-attachments/assets/d0d7472c-3968-4fea-b407-5a249043f964" />
+
 หรือใช้คำสั่ง echo บน kali linux
 ```
 echo "cGljb0NURntyM2RfMXNfdGgzX3VsdDFtNHQzX2N1cjNfZjByXzU0ZG4zNTVffQ==cGljb0NURntyM2RfMXNfdGgzX3VsdDFtNHQzX2N1cjNfZjByXzU0ZG4zNTVffQ==cGljb0NURntyM2RfMXNfdGgzX3VsdDFtNHQzX2N1cjNfZjByXzU0ZG4zNTVffQ==cGljb0NURntyM2RfMXNfdGgzX3VsdDFtNHQzX2N1cjNfZjByXzU0ZG4zNTVffQ==" | base64 -d
@@ -93,6 +97,7 @@ picoCTF{XXXXX}picoCTF{XXXXX}picoCTF{XXXXX}picoCTF{XXXXX}
 XXXXX ไม่ใช้ flag นะ คือปิดไว้ จะได้ทำเอง
 
 เพิ่มเติม
+
 - ที่ใช้ zsteg เนื่องจากเรากำลังจัดการกับไฟล์ .PNG ฉันคิดว่ามันเป็นตัวเลือกที่ดีอีกหนึ่งตัวเลือก เนื่องจาก zsteg เป็นเครื่องมือที่ใช้สำหรับการตรวจจับ Steganography ในรูปภาพ PNG และ BMP + ใช้ exiftool แล้วไม่เจอสิ่งที่น่าสงสัย
 ```
 echo -n "ข้อความของคุณ" | base64
