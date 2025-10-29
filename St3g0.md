@@ -66,7 +66,7 @@ b4,r,lsb,xy         .. file: Targa image data (16-273) 65536 x 4097 x 1 +4352 +4
 ```
 b1,rgb,lsb,xy       .. text: "picoCTF{XXXXX}$t3g0"
 ```
-XXXXX ไม่ใช้ flag นะ คือปิดไว้ จะได้ทำเอง
+XXXXX ไม่ใช่ flag นะ คือปิดไว้ จะได้ทำเอง
 
 เพิ่มเติม
 
