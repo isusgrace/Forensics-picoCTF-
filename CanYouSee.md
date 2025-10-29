@@ -98,7 +98,7 @@ echo "cGljb0NURntNRTc0RDQ3QV9ISUREM05fZDhjMzgxZmR9Cg==" | base64 -d
 picoCTF{XXXXX}
 ```
 
-XXXXX ไม่ใช้ flag นะ คือปิดไว้ จะได้ทำเอง
+XXXXX ไม่ใช่ flag นะ คือปิดไว้ จะได้ทำเอง
 
 เพิ่มเติม
 
