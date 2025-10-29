@@ -71,7 +71,7 @@ echo "cGljb0NURntwdXp6bDNkX20zdGFkYXRhX2YwdW5kIV9jOTk5ZTJhNH0=" | base64 -d
 └─$ echo "cGljb0NURntwdXp6bDNkX20zdGFkYXRhX2YwdW5kIV9jOTk5ZTJhNH0=" | base64 -d
 picoCTF{XXXXX}
 ```
-XXXXX ไม่ใช้ flag นะ คือปิดไว้ จะได้ทำเอง
+XXXXX ไม่ใช่ flag นะ คือปิดไว้ จะได้ทำเอง
 
 เพิ่มเติม
 - สังเกตส่วนหนึ่งของโจทย์ที่บอกว่า "and uncover the flag within the metadata." นั่นทำให้เรารู้ว่าต้องใช้ exiftool
