@@ -97,7 +97,7 @@ picoCTF{XXXXX}picoCTF{XXXXX}picoCTF{XXXXX}picoCTF{XXXXX}
 ```
 จากนั้นคัดลอกมาแค่ 1 ข้อความ เพื่อส่ง flag ใน picoCTF
 
-XXXXX ไม่ใช้ flag นะ คือปิดไว้ จะได้ทำเอง
+XXXXX ไม่ใช่ flag นะ คือปิดไว้ จะได้ทำเอง
 
 เพิ่มเติม
 
