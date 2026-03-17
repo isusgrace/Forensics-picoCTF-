@@ -4,7 +4,7 @@ Yes, I can speak Thai.
 
 มา วันนี้เราจะมาทำข้อ Riddle Registry หมวด Forensics
 
-Step 1 สร้าง Directory และนำเข้าไฟล์
+# Step 1 สร้าง Directory และนำเข้าไฟล์
 
 ใช้คำสั่ง mkdir ใช้สำหรับสร้างไดเรกทอรี (หรือโฟลเดอร์) ใหม่บนระบบไฟล์
 ```
@@ -36,7 +36,7 @@ confidential.pdf        100%[============================>] 178.42K   405KB/s   
 2025-10-17 08:44:53 (405 KB/s) - ‘confidential.pdf’ saved [182705/182705]
 ```
 
-Step 2 exiftool
+# Step 2 exiftool
 
 ใช้คำสั่ง exiftool เราจะใช้มันสำหรับอ่านข้อมูลเมตา
 ```
