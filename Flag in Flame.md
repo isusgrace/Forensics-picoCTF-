@@ -61,7 +61,7 @@ eog เราจะใช้เปิดดูรูปภาพ
 
 เอาเลข hex ที่อยู่ในภาพมาเข้า Cyberchef 
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/889d4d64-1138-4df2-b9b0-e2c1dd47567a" />
+<img width="1920" height="915" alt="image" src="https://github.com/user-attachments/assets/cb52ddc1-079c-498c-8df8-b6adc9825cce" />
 
 หรือใช้คำสั่ง echo บน kali linux ก็ได้
 ```
