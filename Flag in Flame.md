@@ -78,7 +78,8 @@ XXXXX ไม่ใช่ flag นะ คือปิดไว้ จะได้
 
 ## เพิ่มเติม
 - ที่รู้ว่าข้อนี้ต้องแปลงเป็น PNG เพราะฉันได้เอาเนื้อหาในไฟล์ TXT ไปถอดรหัสด้วย Base64 ใน Cyberchef
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b83d4655-f9d8-401c-b8bf-f86c90224092" />
+
+<img width="1920" height="920" alt="image" src="https://github.com/user-attachments/assets/14d18374-f311-4b10-bcd1-956e37106e9a" />
 
 - คำสั่ง cat ใช้สำหรับแสดงและอ่านเนื้อหาไฟล์บนหน้าจอ Terminal, รวมไฟล์หลายไฟล์เข้าด้วยกัน, และสร้างไฟล์ใหม่
 
