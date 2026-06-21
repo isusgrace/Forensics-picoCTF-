@@ -4,9 +4,9 @@ Yes, I can speak Thai.
 
 มา วันนี้เราจะมาทำข้อ Hidden in plainsight หมวด Forensics 
 
-Step 1 สร้าง Directory และนำเข้าไฟล์
+# Step 1 สร้าง Directory และนำเข้าไฟล์
 
-ใช้คำสั่ง mkdir ใช้สำหรับสร้างไดเรกทอรี (หรือโฟลเดอร์) ใหม่บนระบบไฟล์
+ใช้คำสั่ง mkdir สำหรับสร้างไดเรกทอรี (หรือโฟลเดอร์) ใหม่บนระบบไฟล์
 ```
 mkdir <new directory>
 ```
@@ -36,7 +36,8 @@ img.jpg                 100%[============================>]  71.78K   317KB/s   
 2025-10-16 09:22:10 (317 KB/s) - ‘img.jpg’ saved [73503/73503]
 ```
 
-Step 2 exiftool
+# Step 2 exiftool
+
 ใช้คำสั่ง exiftool เราจะใช้มันสำหรับอ่านข้อมูลเมตา
 ```
 ┌──(kali㉿kali)-[~/isus01]
