@@ -106,7 +106,7 @@ I+JM
 
 ตัวอย่าง
 
-<img width="1920" height="972" alt="image" src="https://github.com/user-attachments/assets/4b9bf20f-c464-435c-bb73-e0847e92c5de" />
+<img width="1920" height="973" alt="image" src="https://github.com/user-attachments/assets/149b4a57-3fb6-4c01-95b7-22d165ee6fae" />
 
 <img width="1920" height="692" alt="image" src="https://github.com/user-attachments/assets/c9d299fc-42d7-4b4e-9cf4-efff2ee64a4c" />
 
