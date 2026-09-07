@@ -96,7 +96,7 @@ I+JM
 
 มาเปิดภาพดูกัน คำตอบจะอยู่ในนั้น
 
-<img width="800" height="500" alt="fff" src="https://github.com/user-attachments/assets/3fd3d98a-f4a1-479f-a21a-d4bc17ebc056" />
+<img width="800" height="500" alt="fff" src="https://github.com/user-attachments/assets/d3a2ffac-f6dc-40c9-bf04-3667948c02c0" />
 
 จริง ๆ ไม่ต้องย้ายไฟล์และดู Hexdump ก็ได้ แก้เสร็จก็เปิดไฟล์ดูได้เลย
 
