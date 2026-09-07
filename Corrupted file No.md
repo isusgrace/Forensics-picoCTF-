@@ -74,4 +74,50 @@ I+JM
 
 แก้ไขตามภาพเลย จากนั้นเราจะกด Save as หลังจากกดแล้ว เราได้เปลี่ยนชื่อไฟล์เป็น fff.jpg
 
-# Step 3
+# Step 3 eog
+
+เราจะทำการดาวน์โหลดและย้ายไฟล์มายังโฟลเดอร์ที่เราใช้
+
+```
+┌──(kali㉿kali)-[~/Downloads/isusgrace03]
+└─$ mv ~/Downloads/fff.jpg /home/kali/Downloads/isusgrace03
+```
+
+มาดูตรง Hexdump กันอีกรอบ 
+
+```
+┌──(kali㉿kali)-[~/Downloads/isusgrace03]
+└─$ head -c 20 fff.jpg | xxd
+00000000: ffd8 ffe0 0010 4a46 4946 0001 0100 0001  ......JFIF......
+00000010: 0001 0000                                ....
+```
+
+โอเค ตอนนี้ทุกอย่างปกติแล้ว ท้ายไฟล์ก็ปิดด้วย FF D9
+
+มาเปิดภาพดูกัน คำตอบจะอยู่ในนั้น
+
+<img width="800" height="500" alt="fff" src="https://github.com/user-attachments/assets/3fd3d98a-f4a1-479f-a21a-d4bc17ebc056" />
+
+จริง ๆ ไม่ต้องย้ายไฟล์และดู Hexdump ก็ได้ แก้เสร็จก็เปิดไฟล์ดูได้เลย
+
+# เพิ่มเติม
+
+- FF D8 FF E0: เป็นไฟล์ JPEG ที่ใช้มาตรฐาน JFIF (JPEG File Interchange Format) ซึ่งมักพบในรูปภาพทั่วไปที่เซฟมาจากอินเทอร์เน็ต รูปภาพที่ถูกบีบอัด หรือรูปที่บันทึกจากโปรแกรมแต่งภาพ
+
+ตัวอย่าง
+
+<img width="1920" height="972" alt="image" src="https://github.com/user-attachments/assets/4b9bf20f-c464-435c-bb73-e0847e92c5de" />
+
+<img width="1920" height="692" alt="image" src="https://github.com/user-attachments/assets/c9d299fc-42d7-4b4e-9cf4-efff2ee64a4c" />
+
+- FF D8 FF E1: เป็นไฟล์ JPEG ที่มีข้อมูล Exif (Exchangeable Image File Format) อยู่ภายใน ซึ่งส่วนใหญ่เป็นรูปภาพที่ถ่ายมาจากกล้องถ่ายรูปหรือสมาร์ตโฟน โดยจะเก็บข้อมูลจำพวก วันเวลาที่ถ่าย, รุ่นกล้อง, และพิกัด GPS
+
+ตัวอย่าง
+
+<img width="1920" height="887" alt="image" src="https://github.com/user-attachments/assets/87bf5636-8846-46a9-b6c6-23fc6521646e" />
+
+<img width="1920" height="961" alt="image" src="https://github.com/user-attachments/assets/87642a0e-726e-4196-b720-0448fdadb874" />
+
+<img width="1920" height="975" alt="image" src="https://github.com/user-attachments/assets/6bfeda45-ea19-4b8c-a8fa-8d68df2fa652" />
+
+
