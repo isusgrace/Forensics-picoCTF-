@@ -114,10 +114,15 @@ I+JM
 
 ตัวอย่าง
 
-<img width="1920" height="887" alt="image" src="https://github.com/user-attachments/assets/87bf5636-8846-46a9-b6c6-23fc6521646e" />
+<img width="1920" height="941" alt="image" src="https://github.com/user-attachments/assets/2550c40b-04dc-43e1-99d3-aa922ef8b451" />
 
-<img width="1920" height="961" alt="image" src="https://github.com/user-attachments/assets/87642a0e-726e-4196-b720-0448fdadb874" />
+<img width="1920" height="949" alt="image" src="https://github.com/user-attachments/assets/7587b59a-7be4-40f4-979d-9a949b3c1ad4" />
 
 <img width="1920" height="975" alt="image" src="https://github.com/user-attachments/assets/6bfeda45-ea19-4b8c-a8fa-8d68df2fa652" />
 
+ในข้อความสีม่วงจะมีข้อมูลส่วนตัวของภาพและอุปกรณ์ที่ใช้ในการถ่าย จึงปิดไว้ ถ้าอยากเห็นภาพมากขึ้น แนะนำว่าให้นำภาพที่ตัวเองถ่ายในอุปกรณ์ใดกได้ เช่น โทรศัพท์ ไปเข้า EXIFTool
+
+```
+https://exif.tools/
+```
 
